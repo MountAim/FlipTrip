@@ -1,0 +1,25 @@
+#ifndef print_H
+#define print_H
+
+#include <bits/stdc++.h>
+#include "../service/Airline.cpp"
+using namespace std;  
+
+
+void printRoute(vector<Airline> route){
+    if(route.size() == 0)
+    {
+        cout << "No valid Route\n";
+        return;
+    }
+    int finalCost = 0;
+    for(int i=0;i<route.size();++i){
+        cout << i + 1 << " " << route[i].departure << " to " << route[i].arrival << " via " << route[i].airlineName << " at " << route[i].cost << '\n';
+        finalCost += route[i].cost;
+    }   
+
+    cout << "Total changes = " << route.size() << '\n';
+    cout << "Total cost = "<<finalCost<<'\n';
+}
+
+#endif

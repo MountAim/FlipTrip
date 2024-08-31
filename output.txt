@@ -1,0 +1,26 @@
+Route with minimum Hoop :
+1 DEL to LON via DELTA at 2000
+2 LON to NYC via DELTA at 2000
+Total changes = 2
+Total cost = 4000
+Cheapest Route :
+1 DEL to BLR via JETAIR at 500
+2 BLR to LON via JETAIR at 1000
+3 LON to NYC via DELTA at 2000
+Total changes = 3
+Total cost = 3500
+Route with minimum Hoop :
+1 DEL to LON via DELTA at 2000
+2 LON to NYC via DELTA at 2000
+Total changes = 2
+Total cost = 4000
+Cheapest Route :
+1 DEL to BLR via JETAIR at 500
+2 BLR to LON via JETAIR at 1000
+3 LON to NYC via DELTA at 2000
+Total changes = 3
+Total cost = 3500
+Sorted flights from DEL
+JETAIR DEL BLR 500 12 0
+DELTA DEL LON 2000 12 0
+INDIGO DEL BLR 600 12 0
